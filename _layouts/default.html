@@ -1,33 +1,35 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{{ page.title }}</title>
-    
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-  
-  </head>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<h2><a href="http://shamya.github.io">Shamya Karumbaiah</a></h2>
+			<header class="info">
+				<ul>
+					<li><a href="mailto:preethisrinivasan93@gmail.com">email</a> &nbsp</li>
+					<li><a href="https://github.com/PreethiSrinivasan">git</a> &nbsp</li>
+					<li><a href="https://www.linkedin.com/in/preethis1/">linkedin</a> &nbsp</li>
+					<li><a href="https://drive.google.com/file/d/0B_U3vrMN05B7aVVLVXIyY3M0cXM/view?usp=sharing">cv</a> &nbsp</li>
+				</ul>
+			<header>
+			<nav>
+	    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/research">Research</a></li>
+        		<li><a href="/projects">Projects</li>
+	    		</ul>
+			</nav>
+			</br>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			</br>
 
-
-  <body>
-    <nav>
-<ul>
-<li><a href="/">Home</a></li>
-<li><a href="/about">About</a></li>
-  <li><a href="/cv">CV</a></li>
-</ul>
-    </nav>
-<div class="container">
-
-  {{ content }}
-
-</div>
-  
-  <footer>
-   <ul>
-   <li><a href="#">email: preethisrinivasan93@gmail.com</a></li>
-   <li><a href="https://github.com/PreethiSrinivasan">github.com/PreethiSrinivasan</a></li>
-   </ul>
-  </footer>
-  </body>
-
-</html>
+		</body>
+	</html>
