@@ -139,7 +139,7 @@ a:after {
 }
 /* for images*/
 .img-circle {
-    border-radius: 50%;
+    border-radius: 40%;
 }
 
 /* +++++ WRAP SECTIONS +++++ */
